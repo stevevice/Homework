@@ -10,9 +10,9 @@ int main()
 
 	while (i > 1)
 	{
-		i--;
-		std::cout << i << ", ";
-		std::cin.get();
+	i--;
+	std::cout << i << ", ";
+	std::cin.get();
 	}
 	std::cin.get();
 	return 0;*/
@@ -25,7 +25,7 @@ int main()
 
 	while (i > 0)
 	{
-		i--;
+	i--;
 	std::cout << i << ", ";
 	std::cin.get();
 	}*/
@@ -39,21 +39,41 @@ int main()
 
 	while(i >0)
 	{
-		i--;
+	i--;
 	std::cout << i << ", ";
 	std::cin.get();
 	}*/
-	
-	
-	
-	
-	
-	
-	int i = 100;
 
-	for (; i > 0; i--)
+
+
+
+
+
+	/*int i = 101;
+
+	while (i > 1)
 	{
+		i--;
 		std::cout << i << ", ";
 		std::cin.get();
 	}
+	return 0;*/
+
+
+
+
+
+
+
+	int i = 101;
+
+	while (i > 1)
+	{
+		i-=2;
+		std::cout << i << ", ";
+		std::cin.get();
+	}
+	return 0;
+
+
 }
