@@ -1,0 +1,20 @@
+7.
+	a.
+		* It is trying to achieve the letters "John" in the 'name' array.
+		* I dont think there is enough space to fit the name and the null character. 
+		* Change the size of the array to 5 instead of 4.
+
+	b.
+		* I think the program is trying to declare an array and see what is in the defined variable but there is nothing inside of it.
+		* There is nothing inside of the 'name' Array.
+		* I would change it to add something like -- char name[32] = "(whatever you want)";
+
+	c.
+		* The person is trying to merge the two arrays into one array.
+		* There isnt enough room in the array to to concatenate.
+		* I would simply make the array larger by 7.
+
+	d.
+		* I believe they are trying to add the "!" to errorMsg.
+		* the bug is that theformatting is wrong and they dont have enough room.
+		* I would increase it by at least 1 then I think that would fix the issue .
